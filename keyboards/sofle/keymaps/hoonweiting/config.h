@@ -16,5 +16,8 @@
 
 #pragma once
 
+#undef ENCODER_RESOLUTION
+#define ENCODER_RESOLUTION 4
+
 // Sea-Picro does not need SPLIT_USB_DETECT
 #undef SPLIT_USB_DETECT
