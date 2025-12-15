@@ -19,5 +19,7 @@
 #undef ENCODER_RESOLUTION
 #define ENCODER_RESOLUTION 4
 
+#define OLED_BRIGHTNESS 15
+
 // Sea-Picro does not need SPLIT_USB_DETECT
 #undef SPLIT_USB_DETECT
